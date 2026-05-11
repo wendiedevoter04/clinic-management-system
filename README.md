@@ -4,27 +4,27 @@ This is a console-based clinic management system built in Java using object-orie
 
 The project was designed to strengthen understanding of system design using classes, separation of logic and structured data handling.
 
-What this project does
+## What this project does
 
 The system allows basic management of patient records within a clinic setting. Users can add new patients, view all stored patients and search for a patient using a unique identifier.
 
 It runs entirely in the terminal and uses an interactive menu system for user interaction.
 
-Key features
+## Key features
 
 Add new patient records
 View all registered patients
 Search for patients using ID
 Simple menu-driven interface
 
-Tech stack
+## Tech stack
 
 Java
 Object-Oriented Programming (OOP)
 ArrayList
 Scanner (user input handling)
 
-Project structure
+## Project structure
 
 The system is divided into clear components following OOP design principles:
 
@@ -37,7 +37,7 @@ Handles core logic such as adding, retrieving and searching patients.
 Main class
 Controls program flow and user interaction through the terminal menu.
 
-How it works
+## How it works
 
 Patient data is stored as objects inside an ArrayList. The system interacts with the user through a continuous menu loop.
 
@@ -45,13 +45,13 @@ Each action (add, view, search) triggers a method in the service layer, ensuring
 
 This structure mimics how real backend systems organize responsibilities.
 
-What I learned
+## What I learned
 
 This project strengthened my understanding of object-oriented programming in real system design. I learned how to separate concerns using classes, manage collections of objects and structure applications in a scalable way.
 
 It also improved my ability to think in terms of system architecture rather than just individual functions.
 
-Possible improvements
+## Possible improvements
 
 Add patient deletion and update functionality
 Introduce file or database storage for persistence
@@ -59,6 +59,6 @@ Add authentication for system access
 Improve error handling and input validation
 Expand into a full desktop or web application
 
-Project summary
+## Project summary
 
 A Java-based clinic management system built using object-oriented programming. It demonstrates structured system design with patient management features including adding, viewing and searching records using a console interface.
