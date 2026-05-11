@@ -12,29 +12,29 @@ It runs entirely in the terminal and uses an interactive menu system for user in
 
 ## Key features
 
-Add new patient records
-View all registered patients
-Search for patients using ID
-Simple menu-driven interface
+1. Add new patient records
+2. View all registered patients
+3. Search for patients using ID
+4. Simple menu-driven interface
 
 ## Tech stack
 
-Java
-Object-Oriented Programming (OOP)
-ArrayList
-Scanner (user input handling)
+- Java
+- Object-Oriented Programming (OOP)
+- ArrayList
+- Scanner (user input handling)
 
 ## Project structure
 
 The system is divided into clear components following OOP design principles:
 
-Patient class
+*Patient class
 Represents individual patient data such as ID and basic details.
 
-Service layer
+*Service layer
 Handles core logic such as adding, retrieving and searching patients.
 
-Main class
+*Main class
 Controls program flow and user interaction through the terminal menu.
 
 ## How it works
